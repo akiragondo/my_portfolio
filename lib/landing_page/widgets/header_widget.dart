@@ -23,11 +23,6 @@ class HeaderWidget extends StatelessWidget {
               bottom: 14,
               top: 12,
             ),
-      padding: isMainHeader == 1
-          ? const EdgeInsets.only(
-              left: 18,
-            )
-          : const EdgeInsets.all(0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

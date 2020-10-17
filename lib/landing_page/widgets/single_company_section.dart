@@ -17,8 +17,8 @@ class SingleCompanySection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(
-        top: 12,
-        bottom: 36,
+        top: 24,
+        bottom: 48,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -32,7 +32,7 @@ class SingleCompanySection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                width: (MediaQuery.of(context).size.width - 144 * 2) * 0.6,
+                width: (MediaQuery.of(context).size.width - 156 * 2) * 0.6,
                 child: Text(
                   description,
                   style: Theme.of(context).primaryTextTheme.bodyText1,
@@ -40,7 +40,7 @@ class SingleCompanySection extends StatelessWidget {
                 ),
               ),
               Container(
-                width: (MediaQuery.of(context).size.width - 144 * 2 - 24 - 24) *
+                width: (MediaQuery.of(context).size.width - 156 * 2 - 24 - 24) *
                     0.4,
                 padding: const EdgeInsets.only(
                   left: 24,
@@ -61,7 +61,7 @@ class SingleCompanySection extends StatelessWidget {
               left: 12,
               right: 48,
             ),
-            width: (MediaQuery.of(context).size.width - 144 * 2) * 0.6,
+            width: (MediaQuery.of(context).size.width - 156 * 2) * 0.6,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,

@@ -30,7 +30,7 @@ class SingleEducationSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                width: (MediaQuery.of(context).size.width - 144 * 2) * 0.6,
+                width: (MediaQuery.of(context).size.width - 156 * 2) * 0.6,
                 child: Text(
                   description,
                   style: Theme.of(context).primaryTextTheme.bodyText1,
@@ -38,7 +38,7 @@ class SingleEducationSection extends StatelessWidget {
                 ),
               ),
               Container(
-                width: (MediaQuery.of(context).size.width - 144 * 2 - 24 - 24) *
+                width: (MediaQuery.of(context).size.width - 156 * 2 - 24 - 24) *
                     0.4,
                 padding: const EdgeInsets.only(
                   left: 24,

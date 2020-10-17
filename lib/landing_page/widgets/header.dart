@@ -28,16 +28,17 @@ class CustomHeader extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-                  height: 85,
-                  width: 85,
-                  child: Icon(
-                    Icons.last_page_sharp,
-                    size: 85,
+                  padding: const EdgeInsets.all(
+                    14,
+                  ),
+                  child: Image.asset(
+                    'assets/images/logo-v2.png',
                     color: Theme.of(context).accentColor,
                   ),
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
                       margin: EdgeInsets.symmetric(
@@ -95,20 +96,18 @@ class CustomHeader extends StatelessWidget {
                       margin: EdgeInsets.symmetric(
                         horizontal: 12,
                       ),
-                      padding: EdgeInsets.only(
-                        left: 12,
-                        right: 12,
-                        bottom: 6,
-                        top: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Theme.of(context).accentColor,
-                        ),
-                        borderRadius: BorderRadius.circular(
-                          18,
-                        ),
-                      ),
+                      //   padding: EdgeInsets.only(
+                      //     left: 12,
+                      //     right: 12,
+                      //   ),
+                      //   decoration: BoxDecoration(
+                      //     border: Border.all(
+                      //       color: Theme.of(context).accentColor,
+                      //     ),
+                      //     borderRadius: BorderRadius.circular(
+                      //       18,
+                      //     ),
+                      //   ),
                       child: Text(
                         'Contact Me',
                         style: TextStyle(

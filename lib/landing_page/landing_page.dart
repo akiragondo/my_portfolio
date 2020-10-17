@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio_electronic/landing_page/sections/about_section.dart';
 import 'package:portfolio_electronic/landing_page/sections/company_section.dart';
 import 'package:portfolio_electronic/landing_page/sections/education_section.dart';
+import 'package:portfolio_electronic/landing_page/sections/projects_section.dart';
 import 'package:portfolio_electronic/landing_page/widgets/header.dart';
 import 'package:portfolio_electronic/landing_page/sections/introduction_section.dart';
 
@@ -26,6 +27,10 @@ class _LandingPageState extends State<LandingPage> {
       height: 240,
     ),
     CompanySection(),
+    Container(
+      height: 240,
+    ),
+    ProjectsSection(),
   ];
   @override
   Widget build(BuildContext context) {
